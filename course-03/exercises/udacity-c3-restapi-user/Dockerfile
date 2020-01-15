@@ -1,5 +1,5 @@
 FROM node:12
-WORKDIR /
+WORKDIR /udacity/app
 COPY package*.json ./
 RUN npm ci
 COPY . .
